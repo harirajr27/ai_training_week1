@@ -1,1 +1,1 @@
-project status on going
+project status ongoing and now completed
