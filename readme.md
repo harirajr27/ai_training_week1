@@ -1,1 +1,1 @@
-project status completed and now completed
+project status completed
