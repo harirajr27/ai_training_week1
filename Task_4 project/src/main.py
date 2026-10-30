@@ -60,3 +60,4 @@ def create_employee(employee: Employee):
     employees.append(new_emp)
     save_employees(employees)
     return {"message": "Employee created successfully", "employee": new_emp}
+
