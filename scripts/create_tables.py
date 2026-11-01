@@ -1,10 +1,11 @@
-import sys
 import os
+import sys
 
 # Append the project root to sys.path so scripts can find modules inside config/src
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.database import get_db_connection
+
 
 def create_tables():
     create_table_query = """
@@ -28,6 +29,7 @@ def create_tables():
     finally:
         cursor.close()
         conn.close()
+
 
 if __name__ == "__main__":
     create_tables()

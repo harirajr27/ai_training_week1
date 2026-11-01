@@ -1,5 +1,7 @@
 import psycopg2
+
 from config.settings import DATABASE_URL
+
 
 def get_db_connection():
     """Opens a connection to the PostgreSQL database."""
